@@ -1,0 +1,947 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D1A414F1403880323697B4549EE4147 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		2C3B0F460D42BC1149FCFAC823330261 /* Pods-Night2UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 317066B2EEE2BA96884C75AAF80BF3CE /* Pods-Night2UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		326E5508AB029DEEA3591A975B0BB3B2 /* KSMHand.h in Headers */ = {isa = PBXBuildFile; fileRef = FE739E9A75A31AC27E5A2835704031EF /* KSMHand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36D7FF186301D49F02BC2B41C131CC0D /* Pods-Night2UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C2623E4ADE54BB6D9F72963284D284 /* Pods-Night2UITests-dummy.m */; };
+		40064853C16C57E87819F1E48F579841 /* Pods-Night2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C55748539A347B30DAF40B5DF90DCF5 /* Pods-Night2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4108260A7DFC446C21A134B527F057FC /* BEMAnalogClock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 490A98305265520A8B24AF653D347C41 /* BEMAnalogClock-dummy.m */; };
+		509856255084B9C62C5E4E240DE0C553 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		5FB849775A66B633E7F43EB02EC4A369 /* BEMAnalogClockView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBC7C9BD83AB9A4C130D4B77BD3721B /* BEMAnalogClockView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8708141015944E34FD594E34F8074255 /* Pods-Night2Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C748AFC9E1D1C3CA1E51BA8F66AECC /* Pods-Night2Tests-dummy.m */; };
+		A37A1F4BCE42E1D9189C95F51E17C69A /* BEMAnalogClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0FBF953A42C4A666F170C3A8554807 /* BEMAnalogClockView.m */; };
+		A6F4349EBB1C9C020D934EEAB7F81320 /* Pods-Night2Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED95EAB083EE1CD184B5467280405C65 /* Pods-Night2Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC15CC5BE3C3EB8F18919F8640403967 /* KSMHand.m in Sources */ = {isa = PBXBuildFile; fileRef = A988E8DF609927F97C6CDBCD91789CD0 /* KSMHand.m */; };
+		B4B6424CAD83567D37875B93D2A772A6 /* BEMAnalogClock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D857255E9C5B64DD898F63CF231E3D8 /* BEMAnalogClock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B541E4D1F721D39362B78BD781672534 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		F561072A9451B14250E414358386F5BE /* Pods-Night2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C976C5B449F69F34FA5B5BF7FA004F0C /* Pods-Night2-dummy.m */; };
+		FA1C7C10DA7B4C6CB935C80712821102 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04812F248CFB2821A59CD63594437F8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F7A370F3FF13B8C11D26F06DC212A20;
+			remoteInfo = BEMAnalogClock;
+		};
+		6EB7D5FF888E95C9F4FCD2C827685273 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC66E0798E4813CAC1E3FFBD6D5940D9;
+			remoteInfo = "Pods-Night2";
+		};
+		70D6A803BE006995F90BE30EA83CD512 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC66E0798E4813CAC1E3FFBD6D5940D9;
+			remoteInfo = "Pods-Night2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D95B868AA98745F0D3DB8EB390519F /* Pods-Night2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Night2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		02DC42B7F6B5481384A81A9B5E0BCEC7 /* Pods-Night2-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Night2-frameworks.sh"; sourceTree = "<group>"; };
+		0AD22CB1DF65AFBBA939DF64A475C0B3 /* Pods-Night2UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Night2UITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0DBC7C9BD83AB9A4C130D4B77BD3721B /* BEMAnalogClockView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMAnalogClockView.h; path = Classes/BEMAnalogClockView.h; sourceTree = "<group>"; };
+		12157398481E75CA207466EECC9A0718 /* Pods-Night2Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Night2Tests-frameworks.sh"; sourceTree = "<group>"; };
+		1218E358A4CAFB30FF845EB0BCBD79DC /* Pods-Night2Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Night2Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		169C465CEEF20F53D510B480B394ED26 /* Pods-Night2UITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Night2UITests-frameworks.sh"; sourceTree = "<group>"; };
+		17CB7E2B8985B496F871A6DC790E2498 /* Pods-Night2UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Night2UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		22B8BBCDD844FEF8082B296C5F0B481F /* BEMAnalogClock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEMAnalogClock-prefix.pch"; sourceTree = "<group>"; };
+		27FD08E2EC1D83B28439483BC5A4A897 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		317066B2EEE2BA96884C75AAF80BF3CE /* Pods-Night2UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Night2UITests-umbrella.h"; sourceTree = "<group>"; };
+		31F397C4C23D5FF6AD73C7191221A8F4 /* Pods-Night2UITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Night2UITests-resources.sh"; sourceTree = "<group>"; };
+		32C2623E4ADE54BB6D9F72963284D284 /* Pods-Night2UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Night2UITests-dummy.m"; sourceTree = "<group>"; };
+		490A98305265520A8B24AF653D347C41 /* BEMAnalogClock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BEMAnalogClock-dummy.m"; sourceTree = "<group>"; };
+		4AD1C9E657C0EE709CFF31A8A8B19182 /* Pods-Night2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Night2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		5618D35E69A30B04B1E8321FD7D08E7F /* Pods-Night2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Night2.modulemap"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5D857255E9C5B64DD898F63CF231E3D8 /* BEMAnalogClock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEMAnalogClock-umbrella.h"; sourceTree = "<group>"; };
+		6A227F0534A8CAF61EFB8BB746F8A27E /* Pods-Night2Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Night2Tests-resources.sh"; sourceTree = "<group>"; };
+		6A54A4219A20DC67F13BB71996134CCC /* BEMAnalogClock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BEMAnalogClock.xcconfig; sourceTree = "<group>"; };
+		6C0FBF953A42C4A666F170C3A8554807 /* BEMAnalogClockView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMAnalogClockView.m; path = Classes/BEMAnalogClockView.m; sourceTree = "<group>"; };
+		77C748AFC9E1D1C3CA1E51BA8F66AECC /* Pods-Night2Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Night2Tests-dummy.m"; sourceTree = "<group>"; };
+		7BFC27E29F5F5E9B4170A6EBAC04A124 /* Pods_Night2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Night2.framework; path = "Pods-Night2.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C55748539A347B30DAF40B5DF90DCF5 /* Pods-Night2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Night2-umbrella.h"; sourceTree = "<group>"; };
+		82A43D61F7CD4D48E513E0A0840A38FE /* Pods-Night2-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Night2-resources.sh"; sourceTree = "<group>"; };
+		87A9E9C8540B02B1953646A9D8D4B265 /* Pods-Night2Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Night2Tests.modulemap"; sourceTree = "<group>"; };
+		8C65557FDB409D69A2D3C7B0D22147CE /* Pods-Night2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Night2.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9ACBF7FECE600248A439B8F3735E768E /* BEMAnalogClock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BEMAnalogClock.modulemap; sourceTree = "<group>"; };
+		9B75795A1F23ECA3B583935B3CCEE689 /* Pods-Night2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Night2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D5DAE7037177912C739816153BC0389 /* Pods-Night2-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Night2-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A328F5FA1DD99D19FE8450A4B2D714F2 /* Pods-Night2Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Night2Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A54A9CC37A84D0A9351644E4D3717250 /* Pods-Night2UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Night2UITests.modulemap"; sourceTree = "<group>"; };
+		A988E8DF609927F97C6CDBCD91789CD0 /* KSMHand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KSMHand.m; path = Classes/KSMHand.m; sourceTree = "<group>"; };
+		BC0D75AE47738C0C93F0FDC30537482C /* Pods-Night2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Night2.debug.xcconfig"; sourceTree = "<group>"; };
+		C540ED0F41D3A72B129472AEDF1C377E /* Pods-Night2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Night2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C7F3A315A83940E784DFA993C52FDC1C /* Pods_Night2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Night2UITests.framework; path = "Pods-Night2UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C976C5B449F69F34FA5B5BF7FA004F0C /* Pods-Night2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Night2-dummy.m"; sourceTree = "<group>"; };
+		E1D878E0C50807E04F977D1062D3A4D6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED95EAB083EE1CD184B5467280405C65 /* Pods-Night2Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Night2Tests-umbrella.h"; sourceTree = "<group>"; };
+		F5B08A73313CFF67717E999456A74E61 /* Pods-Night2-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Night2-acknowledgements.plist"; sourceTree = "<group>"; };
+		FA423C1BC1369E30DEB2102AD7D401B2 /* BEMAnalogClock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BEMAnalogClock.framework; path = BEMAnalogClock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC030255E6BE51BF93158BF8BE2CB30 /* Pods_Night2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Night2Tests.framework; path = "Pods-Night2Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF12757AA7C60FD61CBFEE70A84A3C7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD309664A67B2EB11B73815511516A0D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE739E9A75A31AC27E5A2835704031EF /* KSMHand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSMHand.h; path = Classes/KSMHand.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A3938305586DBCD0385BE7AF0D4B628 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1C7C10DA7B4C6CB935C80712821102 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31A534268ACE9F7F6735770CBB1D62D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B541E4D1F721D39362B78BD781672534 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829F5882C4FD2EB6F18517C7439D295C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				509856255084B9C62C5E4E240DE0C553 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89AE796AFF867A02EDE4649304D4CCA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D1A414F1403880323697B4549EE4147 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2537878B83C8D148A70A09F363BBF4BE /* Pods-Night2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				27FD08E2EC1D83B28439483BC5A4A897 /* Info.plist */,
+				A54A9CC37A84D0A9351644E4D3717250 /* Pods-Night2UITests.modulemap */,
+				17CB7E2B8985B496F871A6DC790E2498 /* Pods-Night2UITests-acknowledgements.markdown */,
+				0AD22CB1DF65AFBBA939DF64A475C0B3 /* Pods-Night2UITests-acknowledgements.plist */,
+				32C2623E4ADE54BB6D9F72963284D284 /* Pods-Night2UITests-dummy.m */,
+				169C465CEEF20F53D510B480B394ED26 /* Pods-Night2UITests-frameworks.sh */,
+				31F397C4C23D5FF6AD73C7191221A8F4 /* Pods-Night2UITests-resources.sh */,
+				317066B2EEE2BA96884C75AAF80BF3CE /* Pods-Night2UITests-umbrella.h */,
+				00D95B868AA98745F0D3DB8EB390519F /* Pods-Night2UITests.debug.xcconfig */,
+				4AD1C9E657C0EE709CFF31A8A8B19182 /* Pods-Night2UITests.release.xcconfig */,
+			);
+			name = "Pods-Night2UITests";
+			path = "Target Support Files/Pods-Night2UITests";
+			sourceTree = "<group>";
+		};
+		2AA977CFF97675D323DD1DB2B9759D9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA423C1BC1369E30DEB2102AD7D401B2 /* BEMAnalogClock.framework */,
+				7BFC27E29F5F5E9B4170A6EBAC04A124 /* Pods_Night2.framework */,
+				FBC030255E6BE51BF93158BF8BE2CB30 /* Pods_Night2Tests.framework */,
+				C7F3A315A83940E784DFA993C52FDC1C /* Pods_Night2UITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CC6CD73FA3A902870AD2C1B79D477DC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9ACBF7FECE600248A439B8F3735E768E /* BEMAnalogClock.modulemap */,
+				6A54A4219A20DC67F13BB71996134CCC /* BEMAnalogClock.xcconfig */,
+				490A98305265520A8B24AF653D347C41 /* BEMAnalogClock-dummy.m */,
+				22B8BBCDD844FEF8082B296C5F0B481F /* BEMAnalogClock-prefix.pch */,
+				5D857255E9C5B64DD898F63CF231E3D8 /* BEMAnalogClock-umbrella.h */,
+				FBF12757AA7C60FD61CBFEE70A84A3C7 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BEMAnalogClock";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		632CE54778299B6D1FE30AF743F0E16D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A53D5C0C5FBB8ABABFFD69992834DDF1 /* Pods-Night2 */,
+				791614ABE74A1BC5741C9256549298EB /* Pods-Night2Tests */,
+				2537878B83C8D148A70A09F363BBF4BE /* Pods-Night2UITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6C9F6423C4D069A817BD7EC9F291C115 /* BEMAnalogClock */ = {
+			isa = PBXGroup;
+			children = (
+				0DBC7C9BD83AB9A4C130D4B77BD3721B /* BEMAnalogClockView.h */,
+				6C0FBF953A42C4A666F170C3A8554807 /* BEMAnalogClockView.m */,
+				FE739E9A75A31AC27E5A2835704031EF /* KSMHand.h */,
+				A988E8DF609927F97C6CDBCD91789CD0 /* KSMHand.m */,
+				3CC6CD73FA3A902870AD2C1B79D477DC /* Support Files */,
+			);
+			name = BEMAnalogClock;
+			path = BEMAnalogClock;
+			sourceTree = "<group>";
+		};
+		791614ABE74A1BC5741C9256549298EB /* Pods-Night2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FD309664A67B2EB11B73815511516A0D /* Info.plist */,
+				87A9E9C8540B02B1953646A9D8D4B265 /* Pods-Night2Tests.modulemap */,
+				A328F5FA1DD99D19FE8450A4B2D714F2 /* Pods-Night2Tests-acknowledgements.markdown */,
+				1218E358A4CAFB30FF845EB0BCBD79DC /* Pods-Night2Tests-acknowledgements.plist */,
+				77C748AFC9E1D1C3CA1E51BA8F66AECC /* Pods-Night2Tests-dummy.m */,
+				12157398481E75CA207466EECC9A0718 /* Pods-Night2Tests-frameworks.sh */,
+				6A227F0534A8CAF61EFB8BB746F8A27E /* Pods-Night2Tests-resources.sh */,
+				ED95EAB083EE1CD184B5467280405C65 /* Pods-Night2Tests-umbrella.h */,
+				9B75795A1F23ECA3B583935B3CCEE689 /* Pods-Night2Tests.debug.xcconfig */,
+				C540ED0F41D3A72B129472AEDF1C377E /* Pods-Night2Tests.release.xcconfig */,
+			);
+			name = "Pods-Night2Tests";
+			path = "Target Support Files/Pods-Night2Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A31A2CCC2E13C5261D4626AD4128F48D /* Pods */,
+				2AA977CFF97675D323DD1DB2B9759D9A /* Products */,
+				632CE54778299B6D1FE30AF743F0E16D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A31A2CCC2E13C5261D4626AD4128F48D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C9F6423C4D069A817BD7EC9F291C115 /* BEMAnalogClock */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A53D5C0C5FBB8ABABFFD69992834DDF1 /* Pods-Night2 */ = {
+			isa = PBXGroup;
+			children = (
+				E1D878E0C50807E04F977D1062D3A4D6 /* Info.plist */,
+				5618D35E69A30B04B1E8321FD7D08E7F /* Pods-Night2.modulemap */,
+				9D5DAE7037177912C739816153BC0389 /* Pods-Night2-acknowledgements.markdown */,
+				F5B08A73313CFF67717E999456A74E61 /* Pods-Night2-acknowledgements.plist */,
+				C976C5B449F69F34FA5B5BF7FA004F0C /* Pods-Night2-dummy.m */,
+				02DC42B7F6B5481384A81A9B5E0BCEC7 /* Pods-Night2-frameworks.sh */,
+				82A43D61F7CD4D48E513E0A0840A38FE /* Pods-Night2-resources.sh */,
+				7C55748539A347B30DAF40B5DF90DCF5 /* Pods-Night2-umbrella.h */,
+				BC0D75AE47738C0C93F0FDC30537482C /* Pods-Night2.debug.xcconfig */,
+				8C65557FDB409D69A2D3C7B0D22147CE /* Pods-Night2.release.xcconfig */,
+			);
+			name = "Pods-Night2";
+			path = "Target Support Files/Pods-Night2";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D78072DDF2597047D34A5B81AD8AB85 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C3B0F460D42BC1149FCFAC823330261 /* Pods-Night2UITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB1F9DEEDF1B134C26A9D71D0465FA8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40064853C16C57E87819F1E48F579841 /* Pods-Night2-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C84B4EBCFCB3FEEDE72D061F2646C9F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B6424CAD83567D37875B93D2A772A6 /* BEMAnalogClock-umbrella.h in Headers */,
+				5FB849775A66B633E7F43EB02EC4A369 /* BEMAnalogClockView.h in Headers */,
+				326E5508AB029DEEA3591A975B0BB3B2 /* KSMHand.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38A2ABB0E7C61E11C9E2444012CC385 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F4349EBB1C9C020D934EEAB7F81320 /* Pods-Night2Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6F7A370F3FF13B8C11D26F06DC212A20 /* BEMAnalogClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 543AF12D7C977C8D9D4F4D41A88E8DD5 /* Build configuration list for PBXNativeTarget "BEMAnalogClock" */;
+			buildPhases = (
+				DC524A0DEE939A08EAD9538128DDA0AE /* Sources */,
+				0A3938305586DBCD0385BE7AF0D4B628 /* Frameworks */,
+				C84B4EBCFCB3FEEDE72D061F2646C9F0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BEMAnalogClock;
+			productName = BEMAnalogClock;
+			productReference = FA423C1BC1369E30DEB2102AD7D401B2 /* BEMAnalogClock.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7B8CEB6674568698014D1F5AEE4D6620 /* Pods-Night2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3267BCB722019C1B2AB63B82AC32B185 /* Build configuration list for PBXNativeTarget "Pods-Night2Tests" */;
+			buildPhases = (
+				8B3D51EF0BFBB617DE0B55DF7C90B6DC /* Sources */,
+				89AE796AFF867A02EDE4649304D4CCA1 /* Frameworks */,
+				F38A2ABB0E7C61E11C9E2444012CC385 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D2B0FF0F208675CB5B85A6E814A0C1D /* PBXTargetDependency */,
+			);
+			name = "Pods-Night2Tests";
+			productName = "Pods-Night2Tests";
+			productReference = FBC030255E6BE51BF93158BF8BE2CB30 /* Pods_Night2Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE2A7F409E8078F1157E90252C29E3C8 /* Pods-Night2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8993849EBE448E59A8C00FB8366AB286 /* Build configuration list for PBXNativeTarget "Pods-Night2UITests" */;
+			buildPhases = (
+				76A664D5D38FC6CD309DEB72C7F581CF /* Sources */,
+				31A534268ACE9F7F6735770CBB1D62D4 /* Frameworks */,
+				0D78072DDF2597047D34A5B81AD8AB85 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFF2CA21AF33234CF012EF54C07192C6 /* PBXTargetDependency */,
+			);
+			name = "Pods-Night2UITests";
+			productName = "Pods-Night2UITests";
+			productReference = C7F3A315A83940E784DFA993C52FDC1C /* Pods_Night2UITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FC66E0798E4813CAC1E3FFBD6D5940D9 /* Pods-Night2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32563493506031B021EE0E8E6BBA686F /* Build configuration list for PBXNativeTarget "Pods-Night2" */;
+			buildPhases = (
+				9BB60CD3D1E62183C1A9A26C8A2CC341 /* Sources */,
+				829F5882C4FD2EB6F18517C7439D295C /* Frameworks */,
+				1DB1F9DEEDF1B134C26A9D71D0465FA8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				977C78CB9310A25C61B8642F2AACE569 /* PBXTargetDependency */,
+			);
+			name = "Pods-Night2";
+			productName = "Pods-Night2";
+			productReference = 7BFC27E29F5F5E9B4170A6EBAC04A124 /* Pods_Night2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2AA977CFF97675D323DD1DB2B9759D9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F7A370F3FF13B8C11D26F06DC212A20 /* BEMAnalogClock */,
+				FC66E0798E4813CAC1E3FFBD6D5940D9 /* Pods-Night2 */,
+				7B8CEB6674568698014D1F5AEE4D6620 /* Pods-Night2Tests */,
+				CE2A7F409E8078F1157E90252C29E3C8 /* Pods-Night2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76A664D5D38FC6CD309DEB72C7F581CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D7FF186301D49F02BC2B41C131CC0D /* Pods-Night2UITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B3D51EF0BFBB617DE0B55DF7C90B6DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8708141015944E34FD594E34F8074255 /* Pods-Night2Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB60CD3D1E62183C1A9A26C8A2CC341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F561072A9451B14250E414358386F5BE /* Pods-Night2-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC524A0DEE939A08EAD9538128DDA0AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4108260A7DFC446C21A134B527F057FC /* BEMAnalogClock-dummy.m in Sources */,
+				A37A1F4BCE42E1D9189C95F51E17C69A /* BEMAnalogClockView.m in Sources */,
+				AC15CC5BE3C3EB8F18919F8640403967 /* KSMHand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D2B0FF0F208675CB5B85A6E814A0C1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Night2";
+			target = FC66E0798E4813CAC1E3FFBD6D5940D9 /* Pods-Night2 */;
+			targetProxy = 70D6A803BE006995F90BE30EA83CD512 /* PBXContainerItemProxy */;
+		};
+		977C78CB9310A25C61B8642F2AACE569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BEMAnalogClock;
+			target = 6F7A370F3FF13B8C11D26F06DC212A20 /* BEMAnalogClock */;
+			targetProxy = 04812F248CFB2821A59CD63594437F8C /* PBXContainerItemProxy */;
+		};
+		DFF2CA21AF33234CF012EF54C07192C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Night2";
+			target = FC66E0798E4813CAC1E3FFBD6D5940D9 /* Pods-Night2 */;
+			targetProxy = 6EB7D5FF888E95C9F4FCD2C827685273 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00848E2D10D2FB7E72BE9DD7B4121E25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A54A4219A20DC67F13BB71996134CCC /* BEMAnalogClock.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BEMAnalogClock/BEMAnalogClock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BEMAnalogClock/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BEMAnalogClock/BEMAnalogClock.modulemap";
+				PRODUCT_MODULE_NAME = BEMAnalogClock;
+				PRODUCT_NAME = BEMAnalogClock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		063198AB09B9CDB3A695432FC17AD8CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		0EF1D0413449C71C66222ADB49860A62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C65557FDB409D69A2D3C7B0D22147CE /* Pods-Night2.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Night2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Night2/Pods-Night2.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		57FB5991C7D2BF81140323E4E652A148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC0D75AE47738C0C93F0FDC30537482C /* Pods-Night2.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Night2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Night2/Pods-Night2.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87EAC867385563488A6D8F1E74AC46B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BD704B21F467D9DC545C7B03E0E595A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00D95B868AA98745F0D3DB8EB390519F /* Pods-Night2UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Night2UITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Night2UITests/Pods-Night2UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D60356A5B812CA3C7D6425858A97C334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AD1C9E657C0EE709CFF31A8A8B19182 /* Pods-Night2UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Night2UITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Night2UITests/Pods-Night2UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DA1A2B026A606E621B459F905D93151A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B75795A1F23ECA3B583935B3CCEE689 /* Pods-Night2Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Night2Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Night2Tests/Pods-Night2Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECB2446FC7C45CCA7366B15536B9790C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A54A4219A20DC67F13BB71996134CCC /* BEMAnalogClock.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BEMAnalogClock/BEMAnalogClock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BEMAnalogClock/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BEMAnalogClock/BEMAnalogClock.modulemap";
+				PRODUCT_MODULE_NAME = BEMAnalogClock;
+				PRODUCT_NAME = BEMAnalogClock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4513F9891D4A0FFA848D6617CF3E3F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C540ED0F41D3A72B129472AEDF1C377E /* Pods-Night2Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Night2Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Night2Tests/Pods-Night2Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87EAC867385563488A6D8F1E74AC46B4 /* Debug */,
+				063198AB09B9CDB3A695432FC17AD8CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32563493506031B021EE0E8E6BBA686F /* Build configuration list for PBXNativeTarget "Pods-Night2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57FB5991C7D2BF81140323E4E652A148 /* Debug */,
+				0EF1D0413449C71C66222ADB49860A62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3267BCB722019C1B2AB63B82AC32B185 /* Build configuration list for PBXNativeTarget "Pods-Night2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA1A2B026A606E621B459F905D93151A /* Debug */,
+				F4513F9891D4A0FFA848D6617CF3E3F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		543AF12D7C977C8D9D4F4D41A88E8DD5 /* Build configuration list for PBXNativeTarget "BEMAnalogClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00848E2D10D2FB7E72BE9DD7B4121E25 /* Debug */,
+				ECB2446FC7C45CCA7366B15536B9790C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8993849EBE448E59A8C00FB8366AB286 /* Build configuration list for PBXNativeTarget "Pods-Night2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD704B21F467D9DC545C7B03E0E595A3 /* Debug */,
+				D60356A5B812CA3C7D6425858A97C334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - BEMAnalogClock (1.6)
+
+DEPENDENCIES:
+  - BEMAnalogClock
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BEMAnalogClock
+
+SPEC CHECKSUMS:
+  BEMAnalogClock: b654e7f507cc02895222a26c33ca8493172b39cd
+
+PODFILE CHECKSUM: e910ead33b99d43f48b9358695de57558960982f
+
+COCOAPODS: 1.5.2

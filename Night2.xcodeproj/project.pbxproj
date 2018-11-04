@@ -14,6 +14,7 @@
 		89B0F87F218DFDD3001AB959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89B0F87D218DFDD3001AB959 /* LaunchScreen.storyboard */; };
 		89B0F88A218DFDD3001AB959 /* Night2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B0F889218DFDD3001AB959 /* Night2Tests.swift */; };
 		89B0F895218DFDD3001AB959 /* Night2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B0F894218DFDD3001AB959 /* Night2UITests.swift */; };
+		89B0F8A3218E673D001AB959 /* Table .swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B0F8A2218E673D001AB959 /* Table .swift */; };
 		AE1CC63FB1D98DB02B5C1DD3 /* Pods_Night2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E54FBABB87212B065945B5 /* Pods_Night2Tests.framework */; };
 		B86AEF0376EFEB44DD061615 /* Pods_Night2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE18B34F613E7AE89FDC026F /* Pods_Night2.framework */; };
 		ED41C9E63F7B6F7EB41C6222 /* Pods_Night2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E96A72C1E1823AA9638E2C /* Pods_Night2UITests.framework */; };
@@ -56,6 +57,7 @@
 		89B0F890218DFDD3001AB959 /* Night2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Night2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89B0F894218DFDD3001AB959 /* Night2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Night2UITests.swift; sourceTree = "<group>"; };
 		89B0F896218DFDD3001AB959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89B0F8A2218E673D001AB959 /* Table .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Table .swift"; path = "../../Table .swift"; sourceTree = "<group>"; };
 		95ECF744BDF94517FDAD8833 /* Pods-Night2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Night2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Night2/Pods-Night2.debug.xcconfig"; sourceTree = "<group>"; };
 		9E4D84F116C00B8D4D99DBA0 /* Pods-Night2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Night2UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Night2UITests/Pods-Night2UITests.release.xcconfig"; sourceTree = "<group>"; };
 		AE18B34F613E7AE89FDC026F /* Pods_Night2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Night2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +122,7 @@
 				89B0F87B218DFDD3001AB959 /* Assets.xcassets */,
 				89B0F87D218DFDD3001AB959 /* LaunchScreen.storyboard */,
 				89B0F880218DFDD3001AB959 /* Info.plist */,
+				89B0F8A2218E673D001AB959 /* Table .swift */,
 			);
 			path = Night2;
 			sourceTree = "<group>";
@@ -376,6 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89B0F877218DFDD2001AB959 /* ViewController.swift in Sources */,
+				89B0F8A3218E673D001AB959 /* Table .swift in Sources */,
 				89B0F875218DFDD2001AB959 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
